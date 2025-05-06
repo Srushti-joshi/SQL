@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        button{
+            color: blueviolet;
+            background-color: bisque;
+        }
+        button :hover{
+            color: brown;
+            background-color: aqua;
+        }
+        
+    </style> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * { 
+            padding: 0;
+            margin: 0;
+            scroll-behavior: smooth;
+            text-decoration: none;
+        }
+       
+        nav{
+            color:aqua;
+            background-color:black;
+            padding: 30px;
+            margin:0;
+            
+            
+           
+        }
+        li{
+            display: inline;
+            /* margin:10px; */
+            padding:middle;
+            margin: 250px;
+            
+            
+        }
+    
+        div{
+            height: 300px;
+            width: 100%;
+            background-color:pink;
+            
+
+        }
+        button{
+            background-color: aquamarine;
+            margin: 0px;
+            padding: 30px;
+
+        }
+    </style>
+</head>
+<body>
+<!--     
+<section>
+    <button>submit</button>
+</section>
+<section>
+    <img src="./download.ico" alt="image">
+</section> -->
+<nav>
+    <ul>
+        <li><i class="fa-solid fa-house" style="color: red;"></i>HOME</li>
+       
+        <li<i class="fa-solid fa-phone-volume" style="color: red;"></i><a href="#contact" style="color: aqua;">Contact</a></li>
+        <li><i class="fa-thin fa-image"></i><a href="#gallary" style="color: aqua;">Gallary</a></li>
+        <li<i class="fa-solid fa-book" style="color: red;"></i><a href="#about" style="color: aqua;">about</a> </li>
+    </ul>
+    
+    
+</nav>
+<div id="about">
+    <p>About</p>
+</div>
+<div id="contact">
+    <p>Contact</p>
+</div>
+<div id="gallary">
+    <p>Gallary</p>
+</div>
+<div>
+
+    <button onclick="window.scrollTo({top:0,behavior:'smooth'})" style="position:fixed;bottom:30px;right:30px;padding:10px 15px;border:none;background:violet;">↑ Top</button>
+    <button onclick="window.scrollTo({top:0,behavior:'smooth'})" style="position: fixed;">Top</button>
+
+
+</div>
+    
+</body>
+</html>
